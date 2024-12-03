@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const SideBar = () => {
   return (
@@ -19,6 +20,9 @@ const DesktopSidebar = () => {
                     <img src='/logo.svg' alt='logo' className='hidden md:block'/>
                     <img src='/mobile-logo.svg' alt='logo' className='block md:hidden'/>
                 </div>
+                <ul className='flex felx-col items-center md:items-start gap-8'>
+                    <Link></Link>
+                </ul>
             </div>
         </div>
     )
