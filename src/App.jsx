@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className='flex'>
-      {/*<SideBar/>*/}
+      <SideBar/>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/favourites" element={<FavouritesPage/>}/>
